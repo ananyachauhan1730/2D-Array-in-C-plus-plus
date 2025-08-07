@@ -178,6 +178,7 @@ if(A[0][j] == A[1][j])
 7. End
 
 *🔴 Conclusion:🔴*
+
 In this experiment, we successfully implemented various matrix operations using C++ programming.
 We performed matrix input, display, addition, multiplication, diagonal sum, transpose, and row comparison using nested loops and 2D arrays.
  This helped us understand how to use two-dimensional arrays effectively for mathematical and data-based operations.
