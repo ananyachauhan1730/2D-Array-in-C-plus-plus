@@ -71,72 +71,111 @@ if(A[0][j] == A[1][j])
 
 *🔴 1. Matrix Input & Display – Algorithm:*
 
-🔴 Start
-🔴 Input number of rows and columns
-🔴 Use nested loop to input each element of matrix
-🔴 Use another nested loop to display the matrix
-🔴 End
+1. Start
+
+ 2.Input number of rows and columns
+ 
+3. Use nested loop to input each element of matrix
+
+4. Use another nested loop to display the matrix
+
+5.End
 
 
 *🔴 2. Addition of Two Matrices – Algorithm:*
 
-🔴 Start
-🔴 Input number of rows and columns
-🔴 Input elements of Matrix A
-🔴 Input elements of Matrix B
-🔴 For each element, add A[i][j] + B[i][j]
-🔴 Store result in a third matrix C[i][j]
-🔴 Display matrix C
-🔴 End
+1. Start
+
+2  Input number of rows and columne 
+
+ 3.Input elements of Matrix A
+ 
+4. Input elements of Matrix B
+
+5 For each element, add A[i][j] + B[i][j]
+
+ 6.Store result in a third matrix C[i][j]
+
+ 7.Display matrix
+ 
+8.End
 
 
 *🔴 3. Multiplication of Two Matrices – Algorithm:*
 
-🔴 Start
-🔴 Input number of rows and columns
-🔴 Input elements of Matrix A
-🔴 Input elements of Matrix B
-🔴 Initialize result matrix C[i][j] = 0
-🔴 Use 3 nested loops:
+1. Start
+  
+2. Input number of rows and columns
+
+3. Input elements of Matrix A
+
+4.Input elements of Matrix B
+
+5.Initialize result matrix C[i][j] = 0
+
+6.Use 3 nested loops:
+
   🔸 Outer loop: for each row of A
+  
   🔸 Middle loop: for each column of B
+  
   🔸 Inner loop: multiply A[i][k] * B[k][j] and add to C[i][j]
-🔴 Display matrix C
-🔴 End
+  
+7. Display matrix C
+8. End
 
 
 *🔴 4. Diagonal Addition – Algorithm:*
 
-🔴 Start
-🔴 Input size n of square matrix
-🔴 Input matrix elements
-🔴 Initialize sum = 0
-🔴 Use loop: for i = 0 to n-1, add A[i][i] to sum
-🔴 Display the sum
-🔴 End
+1. Start
+
+2.Input size n of square matrix
+
+3.Input matrix elements
+
+4. Initialize sum = 0
+
+5. Use loop: for i = 0 to n-1, add A[i][i] to sum
+
+6. Display the sum
+
+7. End
 
 
 *🔴 5. Transpose of a Matrix – Algorithm:*
 
-🔴 Start
-🔴 Input rows and columns
-🔴 Input elements of matrix A
-🔴 Use nested loop:
+1. Start
+
+2.Input rows and columns
+
+3.Input elements of matrix 
+
+4.Use nested loop:
+
   🔸 Outer loop for i = 0 to column
+  
   🔸 Inner loop for j = 0 to row
+  
   🔸 Print A[j][i] instead of A[i][j]
-🔴 End
+  
+5. End
 
 
 *🔴 6. Compare First and Second Row – Algorithm:*
 
-🔴 Start
-🔴 Input number of rows and columns
-🔴 Make sure there are at least 2 rows
-🔴 Input matrix A
-🔴 Use a loop to compare A[0][j] and A[1][j] for each column
-🔴 If equal, print "Equal", else "Not Equal"
-🔴 End
+1. Start
+
+2. Input number of rows and columns
+
+3. Make sure there are at least 2 rows
+
+4. Input matrix A
+   
+5. Use a loop to compare A[0][j] and A[1][j] for each column
+
+6.If equal, print "Equal", else "Not Equal"
+
+7. End
 
 *🔴 Conclusion:🔴*
 In this experiment, we successfully implemented various matrix operations using C++ programming.
